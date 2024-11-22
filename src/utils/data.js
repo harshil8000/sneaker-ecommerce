@@ -2,7 +2,7 @@ import { productImages } from "../assets/imagedata"
 
 export const data = {
   productId: 1,
-  companyName: "Sneaker Company",
+  companyName: "Shoese Company",
   productName: "Fall Limited Edition Sneakers",
   productDescription:
     "These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.",
