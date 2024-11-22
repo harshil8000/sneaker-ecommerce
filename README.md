@@ -1,7 +1,3 @@
-# Frontend Mentor - E-commerce product page solution
-
-This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -36,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repository](https://github.com/Kijimai/ecommerce-vite-react)
-- Live Site URL: [Netlify Hosted Website](https://ecommerce-reactjs-vite.netlify.app/)
+- Solution URL: [Github Repository](https://github.com/harshil8000/sneaker-ecommerce)
+- Live Site URL: [vercel Hosted Website](https://shoescart.vercel.app/)
 
 ## My process
 
@@ -111,5 +107,4 @@ switch (action.type) {
 
 ## Author
 
-- Website - [JibbyCodes](https://jdbucog.netlify.com/)
-- Frontend Mentor - [@Kijimai](https://www.frontendmentor.io/profile/Kijimai)
+- Website - [harshilbarad](https://shoescart.vercel.com/)
