@@ -1,13 +1,13 @@
-import styled from "styled-components"
-import { Logo, Menu, Cart } from "../icons/index"
-import { avatar } from "../assets/imagedata"
-import FloatingCart from "../components/FloatingCart"
-import { useGlobalContext } from "../context/context"
+import styled from "styled-components";
+import { Logo, Menu, Cart } from "../icons/index";
+import { avatar } from "../assets/imagedata";
+import FloatingCart from "../components/FloatingCart";
+import { useGlobalContext } from "../context/context";
 
-const navLinks = ["collections", "men", "women", "about", "contact"]
+const navLinks = ["collections", "men", "women", "about", "contact"];
 
 const Navigator = () => {
-  const { showSidebar, showCart, hideCart, state } = useGlobalContext()
+  const { showSidebar, showCart, hideCart, state } = useGlobalContext();
 
   return (
     <NavigatorWrapper>
@@ -16,16 +16,17 @@ const Navigator = () => {
           <button onClick={showSidebar} className="menu-btn">
             <Menu />
           </button>
-          <div className="logo">
+          {/* <div className="logo">
             <Logo />
-          </div>
+          </div> */}
+          <div>shoes</div>
           <ul className="nav-links">
             {navLinks.map((link, idx) => {
               return (
                 <li key={idx}>
                   <a href="#">{link}</a>
                 </li>
-              )
+              );
             })}
           </ul>
         </div>
@@ -33,9 +34,9 @@ const Navigator = () => {
           <button
             onClick={() => {
               if (state.showingCart) {
-                hideCart()
+                hideCart();
               } else {
-                showCart()
+                showCart();
               }
             }}
             className="cart-btn"
@@ -50,8 +51,8 @@ const Navigator = () => {
         </div>
       </nav>
     </NavigatorWrapper>
-  )
-}
+  );
+};
 
 const NavigatorWrapper = styled.header`
   position: relative;
@@ -172,6 +173,6 @@ const NavigatorWrapper = styled.header`
       }
     }
   }
-`
+`;
 
-export default Navigator
+export default Navigator;
