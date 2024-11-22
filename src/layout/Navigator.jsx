@@ -19,7 +19,7 @@ const Navigator = () => {
           {/* <div className="logo">
             <Logo />
           </div> */}
-          <div>shoes</div>
+          <h1>shoes</h1>
           <ul className="nav-links">
             {navLinks.map((link, idx) => {
               return (
