@@ -16,7 +16,6 @@ import {
   UPDATE_CART,
   GET_TOTAL_CART,
 } from "../reducer/actions"
-
 const AppContext = createContext()
 
 const AppProvider = ({ children }) => {
