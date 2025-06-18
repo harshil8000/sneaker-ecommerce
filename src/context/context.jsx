@@ -18,7 +18,6 @@ import {
 } from "../reducer/actions"
 const AppContext = createContext()
 
-
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, defaultState)
 
