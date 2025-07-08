@@ -16,7 +16,6 @@ const Product = () => {
     </ProductWrapper>
   )
 }
-
 const ProductWrapper = styled.article`
   display: flex;
   flex-direction: column;
