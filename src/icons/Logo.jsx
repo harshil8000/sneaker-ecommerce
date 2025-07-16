@@ -9,6 +9,7 @@ const Logo = () => {
         fillRule="nonzero"
       />
     </svg>
+    
   )
 }
 
